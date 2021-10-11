@@ -8,10 +8,17 @@
 import SwiftUI
 
 struct CatFactView: View {
+    @ObservedObject var catFactManager = CatFactManager()
+
     var body: some View {
-        Text("This is Cat Fact View")
+        VStack {
+            if let catFact = catFactManager.catFact {
+                Text(catFact.fact)
+                    .padding()
+                    .multilineTextAlignment(.center)
+            }
+        }
             .onAppear {
-                let catFactManager = CatFactManager()
                 catFactManager.getCatFact()
             }
     }
