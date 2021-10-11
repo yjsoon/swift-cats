@@ -16,6 +16,8 @@ struct CatFactView: View {
                 Text(catFact.fact)
                     .padding()
                     .multilineTextAlignment(.center)
+            } else {
+                ProgressView()
             }
         }
             .onAppear {
