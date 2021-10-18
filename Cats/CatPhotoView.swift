@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct CatPhotoView: View {
+    
+    @ObservedObject var catPhotoMan = CatPhotoManager()
+    
     var body: some View {
-        Text("This is cat photo view")
+        VStack {
+            if let image = catPhotoMan.image {
+                Image(uiImage: image)
+            } else {
+                ProgressView()
+                    .progressViewStyle(CircularProgressViewStyle())
+            }
+        }
+        .onAppear {
+            catPhotoMan.getCatPhoto()
+        }
     }
 }
 

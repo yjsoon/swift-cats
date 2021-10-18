@@ -14,6 +14,7 @@
 		AFCA35ED2713F3FE0097E6E2 /* CatFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA35EC2713F3FE0097E6E2 /* CatFactView.swift */; };
 		AFCA35EF2713F49C0097E6E2 /* CatPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA35EE2713F49C0097E6E2 /* CatPhotoView.swift */; };
 		AFCA35F12713F5660097E6E2 /* CatFactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA35F02713F5660097E6E2 /* CatFactManager.swift */; };
+		AFDF519D271D76410029BA71 /* CatPhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDF519C271D76410029BA71 /* CatPhotoManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		AFCA35EC2713F3FE0097E6E2 /* CatFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactView.swift; sourceTree = "<group>"; };
 		AFCA35EE2713F49C0097E6E2 /* CatPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatPhotoView.swift; sourceTree = "<group>"; };
 		AFCA35F02713F5660097E6E2 /* CatFactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactManager.swift; sourceTree = "<group>"; };
+		AFDF519C271D76410029BA71 /* CatPhotoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatPhotoManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				AFCA35EC2713F3FE0097E6E2 /* CatFactView.swift */,
 				AFCA35F02713F5660097E6E2 /* CatFactManager.swift */,
 				AFCA35EE2713F49C0097E6E2 /* CatPhotoView.swift */,
+				AFDF519C271D76410029BA71 /* CatPhotoManager.swift */,
 			);
 			path = Cats;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				AFCA35E12713EFFD0097E6E2 /* ContentView.swift in Sources */,
 				AFCA35ED2713F3FE0097E6E2 /* CatFactView.swift in Sources */,
 				AFCA35F12713F5660097E6E2 /* CatFactManager.swift in Sources */,
+				AFDF519D271D76410029BA71 /* CatPhotoManager.swift in Sources */,
 				AFCA35EF2713F49C0097E6E2 /* CatPhotoView.swift in Sources */,
 				AFCA35DF2713EFFD0097E6E2 /* CatsApp.swift in Sources */,
 			);
